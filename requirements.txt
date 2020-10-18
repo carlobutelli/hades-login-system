@@ -1,0 +1,2 @@
+# required to perform Heroku deployment
+-r requirements/dev.txt
