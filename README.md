@@ -30,11 +30,11 @@ export FLASK_DEBUG=1
 export APP_SETTINGS=Development
 export FLASK_ENV=development
 export SECRET_KEY=this-really-needs-to-be-changed
-export DATABASE_URL=postgresql+psycopg2://tyche:d0nt4get@postgres:5432/tyche
+export DATABASE_URL=postgresql+psycopg2://hades:d0nt4get@postgres:5432/hades
 ```
 if the API is started with ```flask run``` then
 ```bash
-export DATABASE_URL=postgresql+psycopg2://tyche:d0nt4get@localhost:5432/tyche
+export DATABASE_URL=postgresql+psycopg2://hades:d0nt4get@localhost:5432/hades
 ```
 
 ---
